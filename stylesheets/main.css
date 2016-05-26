@@ -40,6 +40,7 @@ footer {
   padding: 15px 32px; }
 
 .card {
+  margin-left: 790px;
   width: 340;
   height: 220;
   border: 2px solid black;
@@ -72,10 +73,19 @@ footer {
 .box:hover .overlay {
   opacity: 1; }
 
+.plus {
+  font-family: Helvetica;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 96px; }
+
 .divine {
   color: rgba(255, 255, 255, 0.85);
   font-weight: lighter;
   font-size: 20px; }
+
+.silly-inspiration {
+  clear: left !important; }
 
 .button {
   background-color: #cfbea5;
@@ -131,6 +141,15 @@ body {
     display: block;
     margin-right: auto; }
 
+  h2 {
+    text-align: center; }
+
+  .clinfo {
+    text-align: center !important;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 50px;
+    color: #aea79e; }
+
   h3 {
     text-align: center;
     color: #aea79e;
@@ -146,7 +165,20 @@ body {
     border-radius: 25px;
     margin-left: 26%; }
 
-  h1 {
+  h2 {
+    font-family: "Share Tech Mono";
+    font-size: 25px; }
+
+  #clientinfo {
+    margin-top: 80px;
+    background-color: #f0dadb;
+    text-align: center;
+    width: 50%;
+    border: 10px solid #bce8e7;
+    border-radius: 25px;
+    margin-left: 26%; }
+
+  .fctitle {
     display: inline;
     text-align: center;
     font-weight: bolder;
