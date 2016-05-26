@@ -111,4 +111,16 @@ $(".js-play").on('click', function(){
 
 $('.js-pause').on('click', function(){
   clearInterval(play) })
+
+
+
+
+
+
+// modal pop-up
+document.getElementById("busCard").onclick = function(){
+alert("fix this into a pop-up modal");
+
+}
+
 })

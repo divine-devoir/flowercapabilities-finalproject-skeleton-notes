@@ -1,4 +1,14 @@
+footer{
+  text-align: center;
+  font-weight: bold;
 
+}
+
+
+
+//#clientinfo{
+  //background-image: image('wish.png')!important;
+//}
 .close {
 	background: #606061;
 	color: #FFFFFF;
@@ -21,46 +31,18 @@
 .close:hover { background: #00d9ff; }
 
 
+//.first-row{
+  //clear: left;
+//}
 
 
-.modalDialog:target {
-	opacity:1;
-	pointer-events: auto;
-}
-
-.modalDialog > div {
-	width: 400px;
-	position: relative;
-	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
-	border-radius: 10px;
-	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
-}
-
-
-.modalDialog {
-	position: fixed;
-	font-family: Arial, Helvetica, sans-serif;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-	z-index: 99999;
-	opacity:0;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
-	pointer-events: none;
-}
 
 
  .box{
   display: inline;
-  float:left;}
+  float:left;
+
+}
 
   .slideshow {
     height: 300px; }
@@ -72,6 +54,24 @@
 
   .slideshow-buttons button {
     padding: 15px 32px; }
+.card{
+  width:340;
+  height: 220;
+  border:2px solid black;
+  background-color: #bce8e7;
+  text-align: center;
+
+}
+//.modal-wrapper {   position: fixed;   top:0;   left:0;   background-color: rgba(0,0,0,.6);   width:100%;   height:100%;   padding: 0;   margin: 0; }
+
+//.modal {   width: 400px;   min-height: 200px;   position: relative;   top: 50%;   transform: translateY(-50%); // move up the Y axis -50% }
+//.modal-wrapper {   visibility : none!important; }
+
+.fc{
+
+  margin-right: auto;
+
+}
 
 .box    {
 
@@ -99,12 +99,17 @@
 .box:hover .overlay {
                opacity:1;}
 
-.plus       {  font-family:Helvetica;
-               font-weight:900;
-               color:rgba(255,255,255,.85);
-               font-size:96px;
-             }
+//.plus       {  font-family:Helvetica;
+  //             font-weight:900;
+    //           color:rgba(255,255,255,.85);
+      //         font-size:96px;
+        //     }
+.divine{
 
+  color:rgba(255,255,255,.85);
+  font-weight: lighter;
+  font-size: 20px;
+}
 
 
 
